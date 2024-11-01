@@ -15,15 +15,12 @@ namespace Choosyourownadventure
     public partial class Form1 : Form
     {
         int page = 1;
-
+        SoundPlayer soundPlayer = new SoundPlayer();
         public Form1()
         {
             InitializeComponent();
 
-            outPutlable.Text = "You wake up in the middle of a road. " +
-                        "Looking around you see a sign that reads ''Silent Hill,Main'' ";
-            option1Lable.Text = "walk forwards (up the road)?";
-            option2Lable.Text = "walk back (down the road)?";
+            displayPage();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -188,7 +185,7 @@ namespace Choosyourownadventure
                 Random randomGenrator = new Random();
                 int randomValue = randomGenrator.Next(1, 101);
 
-                if (randomValue > 78)
+                if (randomValue > 60)
                 {
                     page = 19;
                 }
@@ -240,6 +237,9 @@ namespace Choosyourownadventure
             switch (page)
             {
                 case 1:
+                 
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
 
                     BackgroundImage = Properties.Resources.pyramind_head;
 
@@ -251,6 +251,9 @@ namespace Choosyourownadventure
                     break;
                 case 2:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
+
                     BackgroundImage = Properties.Resources.silent_hil_town;
 
                     outPutlable.Text = "Going forwards you eventually enter a town. You see two paths, " +
@@ -260,6 +263,9 @@ namespace Choosyourownadventure
                     option2Lable.Text = "Go right?";
                     break;
                 case 3:
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
 
                     BackgroundImage = Properties.Resources.pyramind_head;
 
@@ -271,6 +277,9 @@ namespace Choosyourownadventure
                     break;
                 case 4:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
+
                     BackgroundImage = Properties.Resources.hospital;
 
                     outPutlable.Text = "Going right you eventually encounter a hospital, do you go in?";
@@ -279,6 +288,9 @@ namespace Choosyourownadventure
                     option2Lable.Text = "No?";
                     break;
                 case 5:
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
 
                     BackgroundImage = Properties.Resources.silent_hill_elementry_school;
 
@@ -289,7 +301,10 @@ namespace Choosyourownadventure
                     break;
                 case 6:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.silent_hill_2_remake_nurse;
 
                     outPutlable.Text = "Entering the hospital the door slams behind you causing these puppet like nurses" +
                         " to rush towards you ripping you apart, you die cold and alone. play again? ";
@@ -298,6 +313,12 @@ namespace Choosyourownadventure
                     option2Lable.Text = "No?";
                     break;
                 case 7:
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
+
+                    BackgroundImage = Properties.Resources.hospital;
+
                     outPutlable.Text = "Deciding to not enter the hospital you walk away tripping on a rock hitting your head, play again?";
 
                     option1Lable.Text = "Yes?";
@@ -305,16 +326,22 @@ namespace Choosyourownadventure
                     break;
                 case 8:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
+
                     BackgroundImage = Properties.Resources.pyramind_head;
 
-                    outPutlable.Text = "Going south the fog  dissipates eventually leading you to your freedom, play again?";
+                    outPutlable.Text = "Going south the fog dissipates eventually leading you to your freedom, play again?";
 
                     option1Lable.Text = "Yes?";
                     option2Lable.Text = "No?";
                     break;
                 case 9:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.Warning_siren);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.silent_hill_school_gym;
 
                     outPutlable.Text = "Deciding to enter the school it is immediately apparent that no one has been here in ages. Looking around you enter a gym which almost looks like it was set for a promb, though it looks like very one just dissapperad. " +
                         "After some time you reach the second floor as you do a siren which almost sounds like a fire trucks wails outside though nothing's there," +
@@ -325,7 +352,10 @@ namespace Choosyourownadventure
                     break;
                 case 10:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.gaint_bugs;
 
                     outPutlable.Text = "Deciding not to go into the school, " +
                         "you hear a screech from behind, as these giant bugs rush towards you in a swarm, do you run?";
@@ -335,6 +365,10 @@ namespace Choosyourownadventure
                     break;
                 case 11:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
+
+                    BackgroundImage = Properties.Resources.Pryamind_head_and_bugs;
 
 
                     outPutlable.Text = "Running from the bugs you eventually reach a church, but just before you reach the church steps a man with a pyramid on his head cleaves you in half, " +
@@ -344,6 +378,9 @@ namespace Choosyourownadventure
                     option2Lable.Text = "No?";
                     break;
                 case 12:
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
 
 
@@ -355,7 +392,10 @@ namespace Choosyourownadventure
                     break;
                 case 13:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.pryamind;
 
                     outPutlable.Text = "Deciding to investigate further you exit the room only for what seems to be a giant meat cleaver" +
                         " to get caught in the door way above your head. do you run, fight or freeze?";
@@ -367,8 +407,11 @@ namespace Choosyourownadventure
 
                     break;
                 case 14:
-                    
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
+
+                    BackgroundImage = Properties.Resources.nightmare;
 
                     outPutlable.Text = "Deciding not to investigate further you turn away from the window, " +
                         "only for the world around you to be warped as everything has been covered in a rust-like coating." +
@@ -378,25 +421,32 @@ namespace Choosyourownadventure
                     option1Lable.Text = "Yes?";
                     option2Lable.Text = "No?";
                     option3Lable.Text = "";
+                    option3Button.Visible = false;
                     break;
                 case 15:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.nightmare;
 
                     outPutlable.Text = "Deciding to run for your life you duck under him and you run down the hallway, " +
                         "as you do the world around begins to become warped as everything has been covered in a rust-like coating, " +
                         "continuing to run down the hall you see the main hall is covered in wire with a small hole to the side, and the other is a door that leads around it. which do you pick? ";
 
-                    option1Lable.Text = "Main Hall";
-                    option2Lable.Text = "Class room door?";
+                    option1Lable.Text = "Class room door?";
+                    option2Lable.Text = "Main hall?";
                     option3Lable.Text = "";
                     option3Button.Visible = false;
                     break;
                 case 16:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
 
-                    outPutlable.Text = "You sit there frozen, confused the pyramid headed man pokes you before shrugging and leaving you alone to move on to something else, " +
+
+                    outPutlable.Text = "You sit there frozen, confused the pyramid headed man pokes you before shrugging and leaving, " +
                         "turns out you were so shocked you had a heart attack and died on the spot. Play again?";
 
                     option1Lable.Text = "Yes?";
@@ -406,6 +456,9 @@ namespace Choosyourownadventure
                     break;
                 case 17:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
+
 
 
                     outPutlable.Text = "Deciding to fight this man you punch him in the torso hurting your hand so much that you have to take a second to recover, " +
@@ -413,10 +466,15 @@ namespace Choosyourownadventure
 
                     option1Lable.Text = "Yes?";
                     option2Lable.Text = "No?";
+                    option3Lable.Text = "";
+                    option3Button.Visible = false;
                     break;
                 case 18:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.pulses);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.classroom;
 
                     outPutlable.Text = "Deciding to duck into the room, " +
                         "you realize that the door leading out of the room is locked, " +
@@ -429,7 +487,10 @@ namespace Choosyourownadventure
                     break;
                 case 19:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.pulses);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.nightmare;
 
                     outPutlable.Text = "Deciding to duck though the hole in the wire, you successfully get though with minimal scratching. " +
                         "Continuing to run you burst out the front doors of the school with the pyramid headed man on your heel,franticly look around you  " +
@@ -443,7 +504,10 @@ namespace Choosyourownadventure
                     break;
                 case 20:
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
+                    soundPlayer.Play();
 
+                    BackgroundImage = Properties.Resources.nightmare;
 
                     outPutlable.Text = "Deciding to try and duck through the hole in the wire, you get caught on the wire looking back you see the pyramid headed man getting closer, " +
                         "in your struggle to get free the wire digs deeper into your skin causing you to slowly bleed out. play again?  ";
@@ -454,6 +518,12 @@ namespace Choosyourownadventure
                     option3Button.Visible = false;
                     break;
                 case 21:
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
+                    soundPlayer.Play();
+
+                    BackgroundImage = Properties.Resources.pyramind_head;
+
                     outPutlable.Text = "Thank you for playing ";
 
                     option1Lable.Text = "...";

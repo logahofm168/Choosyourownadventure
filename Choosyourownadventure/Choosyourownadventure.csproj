@@ -113,5 +113,47 @@
   <ItemGroup>
     <None Include="Resources\silent hill elementry school.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big bugs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning Siren-SoundBible.com-898272278 %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\750946__universfield__shadowy-music-box-harmonies %281%29.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silent hill school gym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\515723__waveplaysfx__sfx-ambience-silent-hill-style-background %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\591475__johnnie_holiday__atmo-silent-hill.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\686642__newlocknew__comstatic_radio-interferenceartificial-1-5crashessignal-failure_em %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\529136__waveplaysfx__ambient-loop-deep-ambient-pulses.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gaint bugs.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silent-hill-2-remake-nurse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pryamind head and bugs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pryamind.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nightmare.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

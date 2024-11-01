@@ -41,10 +41,10 @@
             // 
             this.outPutlable.BackColor = System.Drawing.Color.Transparent;
             this.outPutlable.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outPutlable.ForeColor = System.Drawing.Color.Black;
+            this.outPutlable.ForeColor = System.Drawing.Color.Firebrick;
             this.outPutlable.Location = new System.Drawing.Point(-3, 2);
             this.outPutlable.Name = "outPutlable";
-            this.outPutlable.Size = new System.Drawing.Size(626, 190);
+            this.outPutlable.Size = new System.Drawing.Size(626, 231);
             this.outPutlable.TabIndex = 0;
             this.outPutlable.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -85,7 +85,7 @@
             // 
             this.option1Lable.BackColor = System.Drawing.Color.Transparent;
             this.option1Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option1Lable.ForeColor = System.Drawing.Color.Black;
+            this.option1Lable.ForeColor = System.Drawing.Color.Firebrick;
             this.option1Lable.Location = new System.Drawing.Point(80, 319);
             this.option1Lable.Name = "option1Lable";
             this.option1Lable.Size = new System.Drawing.Size(258, 24);
@@ -95,7 +95,7 @@
             // 
             this.option2Lable.BackColor = System.Drawing.Color.Transparent;
             this.option2Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option2Lable.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.option2Lable.ForeColor = System.Drawing.Color.Firebrick;
             this.option2Lable.Location = new System.Drawing.Point(80, 385);
             this.option2Lable.Name = "option2Lable";
             this.option2Lable.Size = new System.Drawing.Size(258, 24);
@@ -105,7 +105,7 @@
             // 
             this.option3Lable.BackColor = System.Drawing.Color.Transparent;
             this.option3Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option3Lable.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.option3Lable.ForeColor = System.Drawing.Color.Firebrick;
             this.option3Lable.Location = new System.Drawing.Point(80, 458);
             this.option3Lable.Name = "option3Lable";
             this.option3Lable.Size = new System.Drawing.Size(258, 24);
