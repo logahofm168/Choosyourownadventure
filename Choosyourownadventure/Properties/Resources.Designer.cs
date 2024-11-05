@@ -63,6 +63,16 @@ namespace Choosyourownadventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap another_hallway {
+            get {
+                object obj = ResourceManager.GetObject("another hallway", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap big_bugs {
             get {
                 object obj = ResourceManager.GetObject("big bugs", resourceCulture);
@@ -106,6 +116,16 @@ namespace Choosyourownadventure.Properties {
         internal static System.Drawing.Bitmap hospital {
             get {
                 object obj = ResourceManager.GetObject("hospital", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Image1 {
+            get {
+                object obj = ResourceManager.GetObject("Image1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

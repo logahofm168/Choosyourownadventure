@@ -355,7 +355,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.gaint_bugs;
+                    BackgroundImage = Properties.Resources.big_bugs;
 
                     outPutlable.Text = "Deciding not to go into the school, " +
                         "you hear a screech from behind, as these giant bugs rush towards you in a swarm, do you run?";
@@ -411,12 +411,11 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.nightmare;
+                    BackgroundImage = Properties.Resources.another_hallway;
 
                     outPutlable.Text = "Deciding not to investigate further you turn away from the window, " +
                         "only for the world around you to be warped as everything has been covered in a rust-like coating." +
-                        " This causes you to rush out of the room only for you to fall, the last thing you see before blacking out is a man with a pyramid headed" +
-                        " dragging you away with no lower body. play again?";
+                        " This causes you to rush out of the room only for you to trip and fall down some stairs and die, play again.";
 
                     option1Lable.Text = "Yes?";
                     option2Lable.Text = "No?";

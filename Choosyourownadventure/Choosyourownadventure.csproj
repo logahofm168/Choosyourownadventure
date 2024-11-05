@@ -164,5 +164,14 @@
   <ItemGroup>
     <None Include="Resources\Classroom.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\another hallway.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\another hallway1.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
