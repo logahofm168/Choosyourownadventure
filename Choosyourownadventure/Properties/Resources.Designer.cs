@@ -63,16 +63,6 @@ namespace Choosyourownadventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow {
-            get {
-                object obj = ResourceManager.GetObject("Arrow", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap big_bugs {
             get {
                 object obj = ResourceManager.GetObject("big bugs", resourceCulture);
@@ -83,9 +73,9 @@ namespace Choosyourownadventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap classroom {
+        internal static System.Drawing.Bitmap Classroom {
             get {
-                object obj = ResourceManager.GetObject("classroom", resourceCulture);
+                object obj = ResourceManager.GetObject("Classroom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +86,16 @@ namespace Choosyourownadventure.Properties {
         internal static System.Drawing.Bitmap gaint_bugs {
             get {
                 object obj = ResourceManager.GetObject("gaint bugs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gam_over {
+            get {
+                object obj = ResourceManager.GetObject("Gam over", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +136,16 @@ namespace Choosyourownadventure.Properties {
         internal static System.Drawing.Bitmap nightmare {
             get {
                 object obj = ResourceManager.GetObject("nightmare", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nightmare_hall {
+            get {
+                object obj = ResourceManager.GetObject("nightmare.hall", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -191,6 +201,16 @@ namespace Choosyourownadventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap School_Hall___great_for_running_ {
+            get {
+                object obj = ResourceManager.GetObject("School Hall ( great for running)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap silent_hil_town {
             get {
                 object obj = ResourceManager.GetObject("silent-hil town", resourceCulture);
@@ -214,16 +234,6 @@ namespace Choosyourownadventure.Properties {
         internal static System.Drawing.Bitmap silent_hill_2_brookhaven_hospital {
             get {
                 object obj = ResourceManager.GetObject("silent-hill-2-brookhaven-hospital", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap silent_hill_2_remake_nurse {
-            get {
-                object obj = ResourceManager.GetObject("silent-hill-2-remake-nurse", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

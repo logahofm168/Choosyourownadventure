@@ -59,18 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -153,7 +153,16 @@
     <None Include="Resources\nightmare.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\classroom.jfif" />
+    <None Include="Resources\Gam over.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nightmare.hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School Hall %28 great for running%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Classroom.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
