@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.outPutlable = new System.Windows.Forms.Label();
             this.option2Button = new System.Windows.Forms.Button();
             this.option3Button = new System.Windows.Forms.Button();
@@ -146,6 +147,7 @@
             this.Controls.Add(this.outPutlable);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Maybe A Horror Game ";
             this.ResumeLayout(false);
