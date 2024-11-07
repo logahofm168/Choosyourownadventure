@@ -145,7 +145,7 @@
             this.Controls.Add(this.option2Button);
             this.Controls.Add(this.option1Button);
             this.Controls.Add(this.outPutlable);
-            this.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";

@@ -427,7 +427,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.nightmare;
+                    BackgroundImage = Properties.Resources.another_hallway;
 
                     outPutlable.Text = "Deciding to run for your life you duck under him and you run down the hallway, " +
                         "as you do the world around begins to become warped as everything has been covered in a rust-like coating, " +
@@ -492,9 +492,9 @@ namespace Choosyourownadventure
                     BackgroundImage = Properties.Resources.Gam_over;
 
                     outPutlable.Text = "Deciding to duck though the hole in the wire, you successfully get though with minimal scratching. " +
-                        "Continuing to run you burst out the front doors of the school with the pyramid headed man on your heel,franticly look around you  " +
-                        "set eyes on small bar. Hiding in the bar you hear the man walk by covering your mouth hoping he wouldn't find you, " +
-                        "you peek over the edge only to meet your own face, but with the body of the pryamide headed man. Play again?";
+                        "Continuing to run you burst out the doors of the school, look around you" +
+                        "set eyes small bar. Hiding in the bar you hear them walk by, hoping he wouldn't find you, " +
+                        "you peek over the edge only to see your own face, but with the body of the man chasing you. Play again?";
 
                     option1Lable.Text = "Yes?";
                     option2Lable.Text = "No?";

@@ -173,5 +173,17 @@
   <ItemGroup>
     <None Include="Resources\another hallway1.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game over.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game over two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game Over Screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

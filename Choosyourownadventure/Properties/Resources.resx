@@ -121,9 +121,6 @@
   <data name="Maybe a Horror Game-Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maybe a Horror Game-Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Silent Hill sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Silent Hill sign.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pryamind" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pryamind.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,32 +133,29 @@
   <data name="nightmare.hall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nightmare.hall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="silent hill background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\515723__waveplaysfx__sfx-ambience-silent-hill-style-background (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Classroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Classroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Silent-Hill-2---town" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Silent-Hill-2---town.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Image1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Pryamind head and bugs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pryamind head and bugs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="big bugs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big bugs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="radio_interference" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\686642__newlocknew__comstatic_radio-interferenceartificial-1-5crashessignal-failure_em (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="silent-hil town" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silent-hil town.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="School Hall ( great for running)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\School Hall ( great for running).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Warning siren" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Warning Siren-SoundBible.com-898272278 (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="another hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\another hallway1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="silent hill the town" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\silent hill the town.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,9 +165,6 @@
   </data>
   <data name="pulses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\529136__waveplaysfx__ambient-loop-deep-ambient-pulses.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="silent-hil town" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\silent-hil town.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="silent-hill-2-brookhaven-hospital" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\silent-hill-2-brookhaven-hospital.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,13 +178,16 @@
   <data name="Gam over" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gam over.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="big bugs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\big bugs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="silent hill background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\515723__waveplaysfx__sfx-ambience-silent-hill-style-background (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="hospital" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hospital.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="another hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\another hallway1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="radio_interference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\686642__newlocknew__comstatic_radio-interferenceartificial-1-5crashessignal-failure_em (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
