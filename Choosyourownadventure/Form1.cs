@@ -267,7 +267,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                    outPutlable.Text = "You keep walking south down the road, and over and over again you come back to the sign," +
                         " you eventually die of exhaustion, play again?";
@@ -304,7 +304,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Entering the hospital the door slams behind you causing these puppet like nurses" +
                         " to rush towards you ripping you apart, you die cold and alone. play again? ";
@@ -317,7 +317,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Deciding to not enter the hospital you walk away tripping on a rock hitting your head, play again?";
 
@@ -329,7 +329,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.silent_hill_background);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Going south the fog dissipates eventually leading you to your freedom, play again?";
 
@@ -368,7 +368,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
 
                     outPutlable.Text = "Running from the bugs you eventually reach a church, but just before you reach the church steps a man with a pyramid on his head cleaves you in half, " +
@@ -382,7 +382,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Deciding not to run you except your fate that it's likely you'll never get home," +
                         " falling to your knees you let the bugs swarm you, play again?";
@@ -443,7 +443,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "You sit there frozen, confused the pyramid headed man pokes you before shrugging and leaving, " +
                         "turns out you were so shocked you had a heart attack and died on the spot. Play again?";
@@ -458,7 +458,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Deciding to fight this man you punch him in the torso hurting your hand so much that you have to take a second to recover, " +
                         "this was enough time for them to unwedge their giant meat cleaver from the door frame and attack you cutting you in two. Play again?  ";
@@ -489,7 +489,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.pulses);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Deciding to duck though the hole in the wire, you successfully get though with minimal scratching. " +
                         "Continuing to run you burst out the doors of the school, look around you" +
@@ -506,7 +506,7 @@ namespace Choosyourownadventure
                     soundPlayer = new SoundPlayer(Properties.Resources.radio_interference);
                     soundPlayer.Play();
 
-                    BackgroundImage = Properties.Resources.Gam_over;
+                    BackgroundImage = Properties.Resources.Game_Over_3;
 
                     outPutlable.Text = "Deciding to try and duck through the hole in the wire, you get caught on the wire looking back you see the pyramid headed man getting closer, " +
                         "in your struggle to get free the wire digs deeper into your skin causing you to slowly bleed out. play again?  ";
