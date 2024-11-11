@@ -87,7 +87,7 @@
             this.option1Lable.BackColor = System.Drawing.Color.Transparent;
             this.option1Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Lable.ForeColor = System.Drawing.Color.Maroon;
-            this.option1Lable.Location = new System.Drawing.Point(80, 319);
+            this.option1Lable.Location = new System.Drawing.Point(80, 306);
             this.option1Lable.Name = "option1Lable";
             this.option1Lable.Size = new System.Drawing.Size(258, 24);
             this.option1Lable.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.option2Lable.BackColor = System.Drawing.Color.Transparent;
             this.option2Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2Lable.ForeColor = System.Drawing.Color.Maroon;
-            this.option2Lable.Location = new System.Drawing.Point(80, 385);
+            this.option2Lable.Location = new System.Drawing.Point(80, 372);
             this.option2Lable.Name = "option2Lable";
             this.option2Lable.Size = new System.Drawing.Size(258, 24);
             this.option2Lable.TabIndex = 5;
@@ -107,7 +107,7 @@
             this.option3Lable.BackColor = System.Drawing.Color.Transparent;
             this.option3Lable.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option3Lable.ForeColor = System.Drawing.Color.Maroon;
-            this.option3Lable.Location = new System.Drawing.Point(80, 458);
+            this.option3Lable.Location = new System.Drawing.Point(80, 443);
             this.option3Lable.Name = "option3Lable";
             this.option3Lable.Size = new System.Drawing.Size(258, 24);
             this.option3Lable.TabIndex = 6;

@@ -14,17 +14,27 @@ namespace Choosyourownadventure
 {
     public partial class Form1 : Form
     {
+        // Tracks the page of the story the user is at 
         int page = 1;
         SoundPlayer soundPlayer = new SoundPlayer();
         public Form1()
         {
             InitializeComponent();
 
-            displayPage();
+            // Display initial message and options
+            outPutlable.Text = "You wake up in the middle of a road. " +
+                        "Looking around you see a sign that reads ''Silent Hill,Main'' ";
+
+            option1Lable.Text = "walk forwards (up the road)?";
+            option2Lable.Text = "walk back (down the road)?";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //check which page you are on,
+            //and flip to the page needed, when option one is picked 
+
+            //if statements
             if (page == 1)
             {
                 page = 2;
@@ -106,11 +116,17 @@ namespace Choosyourownadventure
                 page = 1;
             }
 
+
+            //Display text and game options on screen based on whatever 
+            // page you are currently on
             displayPage();
         }
 
         private void option2Button_Click(object sender, EventArgs e)
         {
+            //check which page the user is on,
+            //and flip to the page needed, when option two is picked 
+
             //if statements
             if (page == 1)
             {
@@ -234,6 +250,7 @@ namespace Choosyourownadventure
 
         public void displayPage()
         {
+            // Displys message and options depending on what page your on 
             switch (page)
             {
                 case 1:
